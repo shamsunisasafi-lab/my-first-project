@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(178, 178, 238);
+    font-family: Arial;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgba(12, 12, 116, 0.87);
+    
+
+}
+
+ .house-details{
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+
+}
+
+.house-details p {
+    margin: 8px 0; 
+    padding-bottom: 30px;
+}
+
+
+
+
+.house-card img {
+    width: 100%;
+ 
+}
+
+button {
+    background-color: #0f172a;
+    color: white;
+    padding: 10px 20x;
+    border: none;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+
+#details2 {
+    border:  8px solid transparent black;
+    border-radius: 10px;
+    /* background-color: rgb(61, 77, 168); */
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.house-info {
+    font-size: 20px;
+}
+
+#details1 {
+    border:  8px solid transparent black;
+    border-radius: 10px;
+    /* background-color: rgb(61, 77, 168); */
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: rgb(7, 20, 63);
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.image-gird {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+   
+}
+
+.image-gird img {
+    width: 350px;
+    height: auto;
+    border-radius: 80px;
+    object-fit: cover;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    min-height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+     border-radius: 5px;
+     cursor: pointer;
+     justify-content: center;
+     align-items: center;
+
+
+}
+
+#titel {
+    color: #0f172a;
+    font-size: 60px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
